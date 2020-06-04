@@ -1,7 +1,7 @@
 # website-hugo-template
 
 
-This generates the basic layout of my site using the static website generator [Hugo](https://gohugo.io/) and the [mainroad theme](https://github.com/Vimux/mainroad), which is quite modified.
+This generates the basic layout of my site using the static website generator [Hugo](https://gohugo.io/) and the [mainroad theme](https://github.com/Vimux/mainroad), which is modified.
 
 Look into Hugo on your own if you wish to make further modifications to suite your needs. Adding articles as things stand is as easy as creating an .md file in the contents/post directory, copying the header info from the other article, and then modifying the content as you would a basic markdown file. You will need to look into the mainroad theme and change entries in the config.toml file in order to change such basic elements as the main title of the site.
 
