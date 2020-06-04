@@ -17,6 +17,6 @@ From the terminal:
 
 The latter is a bash script that runs a sed replacement for the index.html files of the articles, to have the article's pdfs open.
 
-##### The public folder that Hugo makes with the above commands is a self-contained and usable website. I use this here Github (Netify) to host it for free.
+#### The public folder that Hugo makes with the above commands is a self-contained and usable website. I use this here Github (Netify) to host it for free.
 
 
