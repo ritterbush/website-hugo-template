@@ -1,0 +1,9 @@
+{{ if .Param "toc" }}
+<div class="post__toc toc">
+	<!--<div class="toc__title">{{ T "toc_title" }}</div>-->
+	<div class="toc__title">{{ partial "share-buttons.html" }}</div>
+	<!--tocs are bloat <div class="toc__menu">
+		{{ .TableOfContents }}
+	</div>-->
+</div>
+{{ end }}

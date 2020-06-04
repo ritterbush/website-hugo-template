@@ -1,0 +1,33 @@
+{{- $logoTitle := .Site.Params.logo.title | default .Site.Title -}}
+{{- $logoSubtitle := .Site.Params.logo.subtitle | default .Site.Params.subtitle -}}
+{{- $logoImage := .Site.Params.logo.image -}}
+
+{{- if or $logoTitle $logoImage }}
+	{{/* Defined when logo is mixed (image + text) */}}
+	{{- $logoMix := and $logoImage $logoTitle -}}
+        
+        <!-- Might be better up here so it goes all the way to the left
+        <div class="logo_img" style="width: 40px; float: left; margin-top: 20px; margin-left: 0px">{{ partial "logo-image.html" }}</div>
+        -->
+
+	<div class="logo{{ with $logoMix }} logo--mixed{{ end }}">
+                <!-- added below line; adjust 'width' for how far away the logo image is from the titles; fyi margin-left is not working-->
+                <div class="logo_img" src="{{ . | relURL }}" style="width: 64px; float: left; margin-top: 8px; margin-left: 0px" rel="home">{{ partial "logo-image.html" }}</div>
+                
+                <!-- Added the style parameter and the bit in quotes just below -->
+
+		<a class="logo__link" style="margin-left: 10px;" href="{{ "" | relLangURL }}"{{ with $logoTitle }} title="{{ . }}"{{ end }} rel="home">
+			{{- with $logoImage }}
+				<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="{{ . | relURL }}">
+				</div>
+			{{- end -}}
+			{{- with $logoTitle -}}
+				<div class="logo__item logo__text">
+					<div class="logo__title">{{ . }}</div>
+					{{ with $logoSubtitle }}<div class="logo__tagline">{{ . }}</div>{{ end }}
+				</div>
+			{{- end }}
+		</a>
+	</div>
+{{- end }}
