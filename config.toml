@@ -1,0 +1,130 @@
+baseURL = "https://condescending-haibt-353c08.netlify.app/"
+languageCode = "en-us"
+title = "Call to Account"
+
+
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+  name = "Paul Ritterbush"
+  bio = "Paul's true identity is unknown. Maybe he is a successful blogger or busybody. Nobody knows it."
+  avatar = "img/avatar.png"
+
+[Params]
+  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  description = "Paul's philosophy blog" # Site description. Used in meta description
+  copyright = "Paul Ritterbush" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  #mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  #dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  highlightColor = "#4ebaaa" # Override highlight color #e22d30 default
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.logo]
+  title = "Call to Account" # Logo title, otherwise will use site title
+  subtitle = "Paul's Philosophy Text" # Logo subtitle
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["social", "recent", "categories", "taglist", "search", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+  
+# Custom social links
+[[Params.widgets.social.custom]]
+  title = "The Old Blog"
+  url = "https://paulritterbush.com"
+  icon = "webpage.svg" # Optional. Path relative to "layouts/partials"
+
+
+[[Params.widgets.social.custom]]
+  title = "Youtube"
+  url = "https://youtube.com/channel/UCl9FrL6xwVmFC8Dgd4RCxjg"
+  icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+
+
+[[Params.widgets.social.custom]]
+  title = "Twitter"
+  url = "https://twitter.com/PaulRitterbush"
+  icon = "svg/twitter.svg" # Optional. Path relative to "layouts/partials"
+
+
+[[Params.widgets.social.custom]]
+  title = "Github"
+  url = "https://github.com/ritterbush"
+  icon = "svg/github.svg" # Optional. Path relative to "layouts/partials"
+
+  
+[[Params.widgets.social.custom]]
+  title = "Email"
+  url = "mailto:paul@call-to-account.com"
+  icon = "svg/email.svg" # Optional. Path relative to "layouts/partials"
+
+    
+
+#[[Params.widgets.social.custom]]
+  #title = "Gitlab"
+  #url = "https://gitlab.com/ritterbush"
+  #icon = "svg/gitlab.svg" # Optional. Path relative to "layouts/partials"
+
+ 
+#[[Params.widgets.social.custom]]
+  #title = "Bitbucket"
+  #url = "https://bitbucket.com/ritterbush"
+  #icon = "svg/bitbucket.svg" # Optional. Path relative to "layouts/partials"
+
+
+#[[Params.widgets.social.custom]]
+  #title = "Patreon"
+  #url = "https://patreon.com/paulritterbush"
+  #icon = "patreon.svg" # Optional. Path relative to "layouts/partials"
+
+  
+#[Params.widgets.social]
+  # Enable parts of social widget
+  #facebook = "username"
+  #twitter = "PaulRitterbush"
+  #instagram = "username"
+  #linkedin = "paulritterbush"
+  #telegram = "username"
+  #github = "ritterbush"
+  #gitlab = "ritterbush"
+  #bitbucket = "ritterbush"
+  #email = "paul@call-to-account.com"
+
+[menu]
+
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -110
+
+  [[menu.main]]
+    name = "Donate"
+    url = "https://www.patreon.com/paulritterbush"
+    weight = -105
+
+
+
