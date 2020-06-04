@@ -7,13 +7,13 @@ Look into Hugo on your own if you wish to modify my site.
 
 ###### Steps:
 
-*Install hugo
-*git clone this repo into some folder
+* Install hugo
+* git clone this repo into some folder
 
 From the terminal:
-*#cd path/to/somefolder
-*#hugo -D
-*#./post-hugo.sh
+* #cd path/to/somefolder
+* #hugo -D
+* #./post-hugo.sh
 
 The latter is a bash script that runs a sed replacement for the index.html files of the articles, to have the article's pdfs open.
 
