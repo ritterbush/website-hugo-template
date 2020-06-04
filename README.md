@@ -19,4 +19,8 @@ The latter is a bash script that runs a sed replacement for the index.html files
 
 #### The public folder that Hugo makes with the above commands is a self-contained and usable website. I use this here Github (Netify) to host it for free.
 
+Good luck and have fun!
+
+Note: The lisences for Hugo and Mainroad are, to put it colloquially, free and open source. See their respective sites for details. I hereby carry over their lisences. The only thing on my site I copyright is its content, with the exception of the dummy site I use here.
+
 
