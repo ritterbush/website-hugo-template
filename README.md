@@ -3,7 +3,7 @@
 
 This generates the basic layout of my site using the static website generator [Hugo](https://gohugo.io/) and the [mainroad theme](https://github.com/Vimux/mainroad), which is quite modified.
 
-Look into Hugo on your own if you wish to modify my site. 
+Look into Hugo on your own if you wish to make further modifications to suite your needs. Adding articles as things stand is as easy as creating an .md file in the contents/post directory, copying the header info from the other article, and then modifying the content as you would a basic markdown file.
 
 ###### Steps:
 
