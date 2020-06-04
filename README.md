@@ -21,6 +21,6 @@ The latter is a bash script that runs a sed replacement for the index.html files
 
 Good luck and have fun!
 
-Note: The licenses for Hugo and Mainroad are, to put it colloquially, free and open source. See their respective sites for details. I hereby carry over their licenses.
+Note: The licenses for Hugo and Mainroad are, to put it colloquially, free and open source. See their respective sites for details. I hereby carry over their licenses for the generation of your website (does not apply to copyrighted content of my site).
 
 
