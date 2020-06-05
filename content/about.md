@@ -26,6 +26,6 @@ Concreteness comes from providing basic examples. Examples are often lacking whe
 
 Enjoy reading up on topics of analytic philosophy as I have time to add them!
 
-Have any comments, questions, suggestions? Feel free to [send me an email](mailto:paul@call-to-account.com) or [@ me on Twitter](https://twitter.com/PaulRitterbush "Paul's Twitter").
+Have any comments, questions, suggestions? Feel free to [send me an email](mailto:paul@call-to-account.com "Email Paul") or [@ me on Twitter](https://twitter.com/PaulRitterbush "Paul's Twitter").
 
 Thanks for reading!
